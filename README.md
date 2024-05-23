@@ -7,11 +7,7 @@ In recent decades, AI has found numerous applications in the medical field. This
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Disease Identification](#disease-identification)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 This medical expert system diagnoses diseases by evaluating symptoms that can be seen or felt. It helps doctors make appropriate diagnoses, particularly when symptoms overlap across different diseases. The expert system is implemented in SWI-Prolog and provides solutions like suggesting medications and advising treatments.
@@ -39,3 +35,16 @@ To set up the project locally, follow these steps:
 To run the expert system, execute the following command in your terminal:
 ```bash
 swipl -s medical_diagnosis.pl
+```
+
+## Disease Identification
+The system can diagnose the following diseases based on symptoms:
+
+*Cold*: headache, runny nose, sneezing, sore throat.
+*Flu*: fever, headache, chills, body ache.
+*Typhoid*: headache, abdominal pain, poor appetite, fever.
+*Measles*: fever, runny nose, rash, conjunctivitis.
+*Malaria*: fever, sweating, headache, nausea, vomiting, diarrhoea.
+*Chickenpox*: fever, tiredness, headache, inflammation of brain, skin infection, rash.
+*Cholera*: headache, muscle cramps, vomiting, diarrhoea.
+
