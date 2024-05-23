@@ -49,3 +49,55 @@ The system can diagnose the following diseases based on symptoms:
 - *Chickenpox*: fever, tiredness, headache, inflammation of brain, skin infection, rash.
 - *Cholera*: headache, muscle cramps, vomiting, diarrhoea.
 
+
+## How It Works
+
+### System Overview
+The Medical Diagnosis System is designed to assist in diagnosing common diseases based on symptoms provided by the user. The system is implemented using SWI-Prolog, which leverages logical rules to make decisions. Below is a detailed explanation of how the system operates:
+
+1. **Symptom Input**:
+    - The user is prompted to enter symptoms they are experiencing. These symptoms are fed into the system for analysis.
+
+2. **Rule-Based Processing**:
+    - The system uses a set of predefined rules written in Prolog. These rules correlate specific symptoms with potential diseases.
+    - Each disease in the system has an associated set of symptoms. For example, the rule for diagnosing the flu might look like this:
+
+
+3. **Disease Diagnosis**:
+    - The system matches the provided symptoms against its database of rules to determine the most likely disease.
+    - If the symptoms match the rule set for a particular disease, the system will diagnose that disease.
+
+4. **Treatment Suggestions**:
+    - Once a diagnosis is made, the system provides a list of recommended treatments and medications.
+    - The treatment suggestions are also encoded as rules within the Prolog system. For example:
+        ```prolog
+        treatment(flu, [rest, hydration, antiviral_medications]).
+        ```
+
+5. **User Notification**:
+    - The system outputs the diagnosis and the recommended treatment plan to the user.
+    - This information helps the user understand their condition and the next steps they should take.
+
+### Example Workflow
+Here’s an example of how the system operates from start to finish:
+
+1. **User Input**:
+    - The user starts the system and is prompted to enter their symptoms.
+    - Example: The user enters `fever, headache, chills, body ache`.
+
+2. **Symptom Matching**:
+    - The system checks these symptoms against its rules.
+    - It finds that the symptoms match the rule set for the flu.
+
+3. **Diagnosis**:
+    - The system diagnoses the user with the flu.
+
+4. **Treatment Recommendation**:
+    - The system suggests treatments such as rest, hydration, and antiviral medications.
+
+5. **Output**:
+    - The system displays the diagnosis and treatment suggestions to the user.
+
+### Prolog Implementation
+The core logic of the system is implemented in SWI-Prolog. The rules for diagnosis and treatment are written in a way that allows the system to perform logical inference based on the input symptoms. Below is a simplified example of how rules are defined in Prolog:
+
