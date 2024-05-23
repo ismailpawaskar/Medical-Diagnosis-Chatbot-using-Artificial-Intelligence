@@ -8,6 +8,7 @@ In recent decades, AI has found numerous applications in the medical field. This
 - [Features](#features)
 - [Installation](#installation)
 - [Disease Identification](#disease-identification)
+- [How it works](#how-it-works)
 
 ## Overview
 This medical expert system diagnoses diseases by evaluating symptoms that can be seen or felt. It helps doctors make appropriate diagnoses, particularly when symptoms overlap across different diseases. The expert system is implemented in SWI-Prolog and provides solutions like suggesting medications and advising treatments.
@@ -40,11 +41,11 @@ swipl -s medical_diagnosis.pl
 ## Disease Identification
 The system can diagnose the following diseases based on symptoms:
 
-*Cold*: headache, runny nose, sneezing, sore throat.
-*Flu*: fever, headache, chills, body ache.
-*Typhoid*: headache, abdominal pain, poor appetite, fever.
-*Measles*: fever, runny nose, rash, conjunctivitis.
-*Malaria*: fever, sweating, headache, nausea, vomiting, diarrhoea.
-*Chickenpox*: fever, tiredness, headache, inflammation of brain, skin infection, rash.
-*Cholera*: headache, muscle cramps, vomiting, diarrhoea.
+- *Cold*: headache, runny nose, sneezing, sore throat.
+- *Flu*: fever, headache, chills, body ache.
+- *Typhoid*: headache, abdominal pain, poor appetite, fever.
+- *Measles*: fever, runny nose, rash, conjunctivitis.
+- *Malaria*: fever, sweating, headache, nausea, vomiting, diarrhoea.
+- *Chickenpox*: fever, tiredness, headache, inflammation of brain, skin infection, rash.
+- *Cholera*: headache, muscle cramps, vomiting, diarrhoea.
 
